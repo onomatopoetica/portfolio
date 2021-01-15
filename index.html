@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- w3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/792cbaa3d1.js" crossorigin="anonymous"></script>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Grid Portfolio Practice</title>
+</head>
+
+<body>
+    <div class="indexNav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+
+            <!-- Container for navbar brand -->
+
+            <div class="container-fluid">
+                <a class="navbar-brand">Hi. It's nice to meet you!
+                    <svg class="heart" viewBox="0 0 32 29.6">
+                        <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2
+                          c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z" />
+                    </svg>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a id="homeNav" class="nav-link">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="portfolioNav" class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="contactNav" class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header image  -->
+
+    <header>
+        <div class="jumbotron jumboHeaderImg text-center pb-3">
+            <h1 id="portfolioName" class="display-4">Jennifer Bates</h1>
+            <br>
+            <p class="lead subTitle">Combining Creativity + Technology</p>
+            <br>
+            <div class="w3-card">
+                <div class="w3-container w3-center">
+                    <img class="heroImage fadeIn" src="Assets/Images/jenHero.png" alt="black and white image Jen"
+                        style="max-width: 100%;">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Summary Intro -->
+
+    <div class="container" style="max-width: 100%;">
+        <div class="summaryIntro">
+            <h2 class="Intro text-center">Header</h2>
+            <p>I am a technical project manager with a passion for creating. </p>
+        </div>
+    </div>
+    <br>
+
+    <!-- Hire Me! Button for downloading CV -->
+
+    <div class="buttonContainer">
+        <div class="buttonCV text-center">
+            <a href="Assets/CV/Jennifer_Bates_CV.pdf" target="_blank" download="CV">
+                <button class="btn btn-warning" type="button">Hire Me!</button>
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <section id="portfolio">
+        <div class="cardContainer mb-5 mt-5 text-center">
+            <div class="card-deck">
+                <div class="card" style="background-color: black;">
+                    <img src="Assets/Images/pickyEater.png" class="card-img-top" alt="picky eater app">
+                    <div class="card-body">
+                        <h5 class="card-title">Picky Eater</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.<br><br>
+                        <a href="https://jkriese12.github.io/picky-eater/" target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket" style="background-color: white; color: black;"></i> Visit page </span></a>
+                        <a href="https://github.com/jkriese12/picky-eater" target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-laptop-code" style="background-color: white; color: black;"></i> See project code</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="background-color: black;">
+                    <img src="Assets/Images/scheduler.png" class="card-img-top" alt="project planner app">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Day Scheduler</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                            content.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- Creative side accordion -->
+
+    <section>
+        <button class="accordion w3-indigo pb-3" style="font-size: 1.25rem;">My Freelance Work</button>
+        <div class="panel">
+            <div class="grid-container" style="max-width: 100%; text-align: center;">
+                <div class="item1">
+                    <img src="Assets/Images/Butterflies.png" alt="Butterflies" />
+                </div>
+                <div class="item2">
+                    <img src="Assets/Images/Zeus2.png" alt="doberman and butterfly" />
+                </div>
+                <div class="item3">
+                    <img src="Assets/Images/Luxe2.png" alt="doberman and tulips" />
+                </div>
+                <div class="item4">
+                    <img src="Assets/Images/Unicorn.png" alt="doberman with rainbow unicorn horn" />
+                </div>               
+            </div>
+        </div>    
+    </section>
+    <br>
+
+    <!-- Container for contact form -->
+
+    <section id="contact">
+        <div class="container-fluid justify-content-center" style="max-width: 100%;">
+            <h3 class="contactHeader text-center mt-5">Contact Me</h3>
+            <br>
+            <form>
+                <div class="form-group text-left">
+                    <label for="nameFormControlInput1">Name</label>
+                    <input type="name" class="form-control" id="nameFormControlInput1"
+                        placeholder="first and last name">
+                </div>
+                <div class="form-group text-left">
+                    <label for="emailFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="emailFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="form-group text-left">
+                    <label for="socialFormControlSelect1">Where did you hear about me?</label>
+                    <select class="form-control" id="socialFormControlSelect1">
+                        <option></option>
+                        <option>LinkedIn</option>
+                        <option>Stack Overflow</option>
+                        <option>GitHub</option>
+                        <option>CodePen</option>
+                        <option>Twitter</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group text-left">
+                    <label for="messageFormControlTextarea1">Your message</label>
+                    <textarea class="form-control" id="messageFormControlTextarea1" rows="7"></textarea>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm">
+                        <img id="butterfliesForm" src="Assets/Images/Butterflies.png" alt="butterflies"
+                            class="mx-auto d-block" style="max-width: 100%;">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- FOOTER -->
+
+    <footer class="cvFooter" style="text-align: center; font-size: 1rem;">
+        <div class="text-black">
+            <div class="madeWithLove" style="font-size: .85rem;">Made with <i class="fa fa-heart pulse"
+                    style="color: red;"></i> in AZ by Jennifer Bates in 2021</div>
+            <p class="text-black my-2 mx-0" style="font-size: .85rem;">"Creativity is intelligence having fun!" ~ Albert
+                Einstein</p>
+            <div id="socialIcons" class="py-2">
+                <a id="socialGit" href="https://github.com/onomatopoetica" target="_blank"><i
+                        class="fab fa-github fa-2x w3-text-purple mx-3"></i></a>
+                <a id="socialTwit" href="https://twitter.com/JenDotB" target="_blank"><i
+                        class="fab fa-twitter fa-2x w3-text-blue mx-3"></i></a>
+                <a id="socialLink" href="https://www.linkedin.com/in/jenbates/" target="_blank"><i
+                        class="fa fa-linkedin fa-2x w3-text-indigo mx-3"></i></a>
+                <a id="socialUnsplash" href="https://unsplash.com/@jendotb" target="_blank"><i
+                        class="fab fa-unsplash fa-2x w3-text-white mx-3"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript & JQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <!-- Local JavaScript -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
