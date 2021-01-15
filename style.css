@@ -46,7 +46,7 @@
   100% { transform: scale(.5); }
 }
 
-a#homeNav:hover {
+a#homeNav {
   color: ghostwhite;
 }
 
