@@ -45,7 +45,6 @@ GIVEN LOREM IPSUM...
 #### Installation - Clone the repo: <br>
    ``` 
    git clone https://github.com/onomatopoetica/portfolio-refactor.git
-   
    ```
 
 ## Project Status
@@ -61,7 +60,7 @@ GIVEN LOREM IPSUM...
 #### Articles and sites which contributed toward the successful completion of this project are included below:
 
 [Coding Yaar](https://codingyaar.com/) <br>
-[GeeksForGeeks jQuery Tutorials](https://www.geeksforgeeks.org/jquery-tutorials/) <br>
+[GeeksForGeeks JavaScript Tutorials](https://www.geeksforgeeks.org/loops-in-javascript/?ref=lbp) <br>
 
 ## License
 ##### Distributed under the MIT License. See `LICENSE` for more information.
