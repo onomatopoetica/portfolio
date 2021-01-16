@@ -1,30 +1,4 @@
-
-/* Grid layout */
-/* .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'footer footer footer footer footer footer';
-  grid-gap: 10px;
-  background-color: black;
-  padding: 10px;
-}
-
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-} */
-
-/* END OF OLD  */
+/* Global settings for color scheme */
 
 *, .jumbotron, body {
   background-color: black;
@@ -46,7 +20,7 @@
   100% { transform: scale(.5); }
 }
 
-a#homeNav {
+#aboutMeNav:hover {
   color: ghostwhite;
 }
 
@@ -79,8 +53,8 @@ a#contactNav:hover {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  margin: 0 auto; /* Gives scrolling effect as typing occurs */
+  letter-spacing: .15em; 
   animation: 
     typing 3.5s steps(33, end),
     blink-caret .5s step-end infinite;
@@ -107,6 +81,12 @@ a#contactNav:hover {
   padding-right: 60px;
 }
 
+#portfolioSummary {
+  font-family: 'Raleway', sans-serif;
+  text-align: justify;
+  font-size: 1rem;
+}
+
 div.card-body, h5.card-title, p.card-text, span {
   background-color: white;
   color: black;
@@ -119,7 +99,11 @@ div.card-body, h5.card-title, p.card-text, span {
 }
 
 a, span:hover {
-  color: orange;
+  color: orange;  
+}
+
+.card-deck, .card, span {
+  text-align: justify;
 }
 
 .accordion {
@@ -252,9 +236,13 @@ div.panel {
 /* Media queries */
 
   /* Small only */
-  @media screen and (max-width: 56em) {
+  @media screen and (max-width: 63em) {
+    .navbar-brand {
+      font-size: 1rem;
+    }
+    
     #portfolioName {
-      font-size: 2.5rem;
+      font-size: 2rem;
     }
     
     .heroImage {
@@ -263,7 +251,18 @@ div.panel {
     }
 
     .typewriter p {
-      font-size: 1rem;
+      font-size: .80rem;
+    }
+
+    .card-deck, .card-title, .card, span {
+      text-align: justify;
+      font-size: .75rem;
+    }
+
+    .card-title {
+      text-align: justify;
+      font-size: .85rem;
+      font-weight: bold;
     }
   
     .grid-container {

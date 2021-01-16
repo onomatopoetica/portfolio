@@ -14,6 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/792cbaa3d1.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="icon" href="Assets/Images/favicon.ico" type="image/png" sizes="16x16">
     <!-- Local CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>Jennifer Bates Portfolio</title>
@@ -40,7 +42,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a id="homeNav" class="nav-link">Home<span class="sr-only">(current)</span></a>
+                        <a id="aboutMeNav" class="nav-link" href="#introAboutMe">About</a>
                     </li>
                     <li class="nav-item">
                         <a id="portfolioNav" class="nav-link" href="#portfolio">Portfolio</a>
@@ -62,6 +64,7 @@
                 <p class="lead subTitle">Combining Creativity + Technology</p>
             </div>
             <br>
+            <br>
             <div class="w3-card">
                 <div class="w3-container w3-center">
                     <img class="heroImage fadeIn" src="Assets/Images/jenHero.png" alt="black and white image Jen"
@@ -73,17 +76,31 @@
 
     <!-- Summary Intro -->
 
-    <div class="container" style="max-width: 100%;">
+    <div class="container mb-3" style="font-size: 1rem; max-width: 100%;">
         <div class="summaryIntro">
-            <h2 class="Intro text-center">Header</h2>
-            <p>I am a technical project manager with a passion for creating. </p>
+            <h2 id="introAboutMe" class="text-center"></h2>
+            <p>I am a technical project manager with a passion for creating. I am also a self-proclaimed <em>nerd</em>.
+            </p>
+
+            <p>I have always enjoyed working in technology for its dynamic, ever-evolving landscape. I’ve worked
+                in some aspect of technology for over ten years. Most recently, I was a technical project manager for a
+                small privately owned tech consulting company where I created client specific landing pages and helped
+                refactor their company website.
+            </p>
+
+            <p>During my time as a technical project manager, I worked with a team of UX/UI designers and developers
+                creating everything from HMIs for industrial machines, to GUIs for remote monitoring devices, to user
+                experience flows for client onboarding applications. I am energized by environments in which I can
+                combine
+                creativity and problem solving!
+            </p>
         </div>
     </div>
     <br>
 
     <!-- Hire Me! Button for downloading CV -->
 
-    <div class="buttonContainer">
+    <div class="buttonContainer mt-5">
         <div class="buttonCV text-center">
             <a href="Assets/CV/Jennifer_Bates_CV.pdf" target="_blank" download="CV">
                 <button class="btn btn-warning" type="button">Hire Me!</button>
@@ -92,27 +109,69 @@
     </div>
     <br>
     <br>
+    <hr>
 
     <section id="portfolio">
-        <div class="cardContainer mb-5 mt-5 text-center">
+        <div class="cardContainer mb-5 text-center">
+            <h3 class="summaryHeader mb-4">Project Work</h3>
+            <p class="summary mb-5" id="portfolioSummary">Nine weeks into University of Arizona's Full Stack Development
+                Bootcamp, I have successfully completed eight individual projects and one group project.
+                Two of my projects are featured below with links to the project repositories and live pages on GitHub:
+            </p>
             <div class="card-deck">
                 <div class="card" style="background-color: black;">
                     <img src="Assets/Images/pickyEater.png" class="card-img-top" alt="picky eater app">
                     <div class="card-body">
-                        <h5 class="card-title">Picky Eater</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.<br><br>
-                        <a href="https://jkriese12.github.io/picky-eater/" target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket" style="background-color: white; color: black;"></i> Visit page </span></a>
-                        <a href="https://github.com/jkriese12/picky-eater" target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-laptop-code" style="background-color: white; color: black;"></i> See project code</span></a>
+                        <h5 class="card-title text-center">Picky Eater Recipe App</h5>
+                        <p class="card-text">This was a group project to develop a recipe application. The
+                            project scope sought to provide a resource for people with food allergies and sensitivities
+                            to find
+                            healthy recipes matching their dietary restrictions. The application was to save the user's
+                            last search in local storage.<br><br>
+                            <a href="https://jkriese12.github.io/picky-eater/" target="_blank"
+                                style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
+                                        style="background-color: white; color: black;"></i> Visit page </span></a>
+                            <a class="pickyLink float-right" href="https://github.com/jkriese12/picky-eater"
+                                target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i
+                                        class="fas fa-laptop-code" style="background-color: white; color: black;"></i>
+                                    Project code</span></a>
                         </p>
                     </div>
                 </div>
                 <div class="card" style="background-color: black;">
                     <img src="Assets/Images/scheduler.png" class="card-img-top" alt="project planner app">
                     <div class="card-body">
-                        <h5 class="card-title">Project Day Scheduler</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                            content.
+                        <h5 class="card-title text-center">Project Day Scheduler</h5>
+                        <p class="card-text">This was a calendar project for a project manager and her
+                            team. The project scope sought to provide a web app allowing users to
+                            save notes to each hour of the day and effectively manage important project events.
+                            The application was to feature dynamically
+                            updated HTML and CSS powered by JQuery.</p>
+                        <a href="https://onomatopoetica.github.io/work-day-scheduler/" target="_blank"
+                            style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
+                                    style="background-color: white; color: black;"></i> Visit page </span></a>
+                        <a class="schedulerLink float-right" href="https://github.com/onomatopoetica/work-day-scheduler"
+                            target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i
+                                    class="fas fa-laptop-code" style="background-color: white; color: black;"></i>
+                                Project code</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="background-color: black;">
+                    <img src="Assets/Images/jsCodeQz.png" class="card-img-top" alt="project planner app">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">JavaScript Code Quiz</h5>
+                        <p class="card-text">This was a code quiz project for full stack web development students to
+                            test their knowledge of JavaScript fundamentals. The project scope sought to provide a timed
+                            quiz web application which stores high scores enabling students to gauge their progress
+                            compared to their peers.</p>
+                        <a href="https://onomatopoetica.github.io/code-quiz/" target="_blank"
+                            style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
+                                    style="background-color: white; color: black;"></i> Visit page </span></a>
+                        <a class="codeLink float-right" href="https://github.com/onomatopoetica/code-quiz"
+                            target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i
+                                    class="fas fa-laptop-code" style="background-color: white; color: black;"></i>
+                                Project code</span></a>
                         </p>
                     </div>
                 </div>
@@ -125,6 +184,9 @@
     <!-- Creative side accordion -->
 
     <section>
+        <div>
+            <h3 class="freelanceHeader text-center">Test</h3>
+        </div>
         <button class="accordion w3-indigo pb-3" style="font-size: 1.25rem;">My Freelance Work</button>
         <div class="panel">
             <div class="grid-container" style="max-width: 100%; text-align: center;">
@@ -139,9 +201,9 @@
                 </div>
                 <div class="item4">
                     <img src="Assets/Images/Unicorn.png" alt="doberman with rainbow unicorn horn" />
-                </div>               
+                </div>
             </div>
-        </div>    
+        </div>
     </section>
     <br>
 
