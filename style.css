@@ -4,6 +4,7 @@
   background-color: black;
   color: white;
 }
+
 /* Heart SVG in navbar-brand */
 
 .heart {
@@ -49,6 +50,8 @@ h3, a {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+/* Typewriter effect */
 
 .typewriter p {
   color: #fff;
@@ -117,6 +120,8 @@ a, span:hover {
   font-size: 1.25;
 }
 
+/* Modal padding */
+
 div.w3-container {
   padding: 0;
 }
@@ -127,6 +132,8 @@ div.w3-container {
   padding-left: 70px;
   padding-right: 70px;
 }
+
+/* Freelance work panel */
 
 .accordion {
   font-family: 'Raleway', sans-serif;
@@ -217,6 +224,8 @@ div.panel {
   padding-right: 60px;
 }
 
+/* Footer  */
+
 .portfolioFooter {
   font-family: 'Raleway', sans-serif;
   padding-top: 1px;
@@ -264,6 +273,10 @@ div.panel {
       font-size: 1rem;
     }
     
+    h3 {
+      font-size: 1.25rem;
+    }
+
     #portfolioName {
       font-size: 2rem;
     }
@@ -353,15 +366,7 @@ div.panel {
       padding-right: 60px;
     }
   }
-  
-  /* Medium and up */
-  @media screen and (min-width: 40em) {}
-
-  
-  /* Medium only */
-  @media screen and (min-width: 40em) and (max-width: 63.9375em) {}
-
-  
+    
   /* Large and up */
   @media screen and (min-width: 64em) {
     .heroImage {
@@ -399,12 +404,10 @@ div.panel {
   
     .grid-container {
       display: grid;
-      /* grid-template-columns: 1fr 2fr 1fr; */
       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
       grid-gap: 20px;
       padding: 100px;
       grid-template-rows: 300px 300px;
-      /* grid-template-rows: repeat(3, 300px); */
     }
 
     .cardContainer {
