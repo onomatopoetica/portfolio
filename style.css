@@ -32,6 +32,10 @@ a#contactNav:hover {
   color: ghostwhite;
 }
 
+h3, a {
+  font-family: 'Raleway', sans-serif;
+}
+
 .row {
   margin-top: 10px;
 }
@@ -106,7 +110,26 @@ a, span:hover {
   text-align: justify;
 }
 
+.freelanceSummary {
+  font-family: 'Raleway', sans-serif;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 1.25;
+}
+
+div.w3-container {
+  padding: 0;
+}
+
+.buttonText {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .accordion {
+  font-family: 'Raleway', sans-serif;
   background-color: black;
   color: white;
   cursor: pointer;
@@ -184,6 +207,7 @@ div.panel {
 }
 
 #contact {
+  font-family: 'Raleway', sans-serif;
   padding-left: 60px;
   padding-right: 60px;
 }
@@ -193,7 +217,7 @@ div.panel {
   padding-right: 60px;
 }
 
-.cvFooter {
+.portfolioFooter {
   font-family: 'Raleway', sans-serif;
   padding-top: 1px;
   padding-bottom: 10px;
@@ -232,7 +256,6 @@ div.panel {
 }
 
 
-
 /* Media queries */
 
   /* Small only */
@@ -252,9 +275,11 @@ div.panel {
 
     .typewriter p {
       font-size: .80rem;
+      text-align: center;
     }
 
     .card-deck, .card-title, .card, span {
+      font-family: 'Raleway', sans-serif;
       text-align: justify;
       font-size: .75rem;
     }
@@ -263,6 +288,13 @@ div.panel {
       text-align: justify;
       font-size: .85rem;
       font-weight: bold;
+    }
+
+    .freelanceSummary {
+      font-family: 'Raleway', sans-serif;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: 1rem;
     }
   
     .grid-container {
@@ -307,6 +339,19 @@ div.panel {
       padding-left: 60px;
       padding-right: 60px;
     }
+
+    .buttonText {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.25rem;
+    }
+
+    .buttonText {
+      font-family: 'Raleway', sans-serif;
+      text-align: justify;
+      font-size: 1rem;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
   }
   
   /* Medium and up */
@@ -320,16 +365,36 @@ div.panel {
   /* Large and up */
   @media screen and (min-width: 64em) {
     .heroImage {
-      padding-left: 20px;
-      padding-right: 20px;
+      padding-left: 55px;
+      padding-right: 55px;
+    }
+
+    .typewriter p {
+      font-size: 2.5rem;
+      text-align: center;
     }
 
     .container {
       text-align: justify;
       padding-bottom: none;
       padding-top: none;
-      padding-left: 100px;
-      padding-right: 100px;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+
+    .introSummary {
+      font-size: 1.25rem;
+    }
+
+    #portfolioSummary {
+      font-size: 1.25rem;
+    }
+
+    .freelanceSummary {
+      font-family: 'Raleway', sans-serif;
+      padding-left: 60px;
+      padding-right: 60px;
+      font-size: 1.25rem;
     }
   
     .grid-container {
@@ -343,17 +408,23 @@ div.panel {
     }
 
     .cardContainer {
-      padding-left: 90px;
-      padding-right: 90px;
+      padding-left: 70px;
+      padding-right: 70px;
+    }
+
+    .buttonText {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.25rem;
+      padding-left: 70px;
+      padding-right: 70px;
     }
 
     #contact {
       padding-left: 20%;
       padding-right: 20%;
     }
+
+    .contactText {
+      font-size: 1.25rem;
+    }
   }
-
-
-  
-  /* Large only */
-  @media screen and (min-width: 64em) and (max-width: 74.9375em) {}

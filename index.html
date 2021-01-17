@@ -11,7 +11,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/792cbaa3d1.js" crossorigin="anonymous"></script>
     <!-- Favicon -->
@@ -76,47 +76,44 @@
 
     <!-- Summary Intro -->
 
-    <div class="container mb-3" style="font-size: 1rem; max-width: 100%;">
+    <div class="container mb-5" style="max-width: 100%;">
         <div class="summaryIntro">
             <h2 id="introAboutMe" class="text-center"></h2>
-            <p>I am a technical project manager with a passion for creating. I am also a self-proclaimed <em>nerd</em>.
-            </p>
+            <div class="introSummary">
+                <h3 class="aboutTitle mb-5 text-center">About Me</h3>
+                <p>I am a technical project manager with a passion for creating. I am also a self-proclaimed
+                    <em>nerd</em>.
+                </p>
 
-            <p>I have always enjoyed working in technology for its dynamic, ever-evolving landscape. I’ve worked
-                in some aspect of technology for over ten years. Most recently, I was a technical project manager for a
-                small privately owned tech consulting company where I created client specific landing pages and helped
-                refactor their company website. During my time as a technical project manager, I worked with a team of
-                UX/UI designers and developers creating everything from HMIs for industrial machines, to GUIs for remote
-                monitoring devices, to user experience flows for client onboarding applications.</p>
+                <p>I have always enjoyed working in technology for its dynamic, ever-evolving landscape. I’ve worked
+                    in some aspect of technology for over ten years. Most recently, I was a project manager for a
+                    small privately owned tech consulting company where I created client specific landing pages and
+                    helped
+                    refactor their company website. Throughout my time as a technical project manager, I have worked on
+                    many
+                    complex projects. Among my most favorite projects, I worked with a team of
+                    UX/UI designers and developers creating everything from HMIs for industrial machines, to GUIs for
+                    remote
+                    monitoring devices, to user experience flows for client onboarding applications.</p>
 
-            <p>I am energized by environments in which I can combine creativity and problem solving!
-            </p>
+                <p>I am energized by environments in which I can combine creativity and problem solving!
+                </p>
+            </div>
         </div>
     </div>
-    <br>
 
-    <!-- Hire Me! Button for downloading CV -->
-
-    <div class="buttonContainer mt-5">
-        <div class="buttonCV text-center">
-            <a href="Assets/CV/Jennifer_Bates_CV.pdf" target="_blank" download="CV">
-                <button class="btn btn-warning" type="button">Hire Me!</button>
-            </a>
-        </div>
-    </div>
-    <br>
-    <br>
-    <hr>
+    <!-- Portfolio section -->
 
     <section id="portfolio">
         <div class="cardContainer mb-5 text-center">
-            <h3 class="summaryHeader mb-4">Project Work</h3>
+            <h3 class="summaryHeader mb-5">Project Work</h3>
             <p class="summary mb-5" id="portfolioSummary">Nine weeks into University of Arizona's Full Stack Development
                 Bootcamp, I have successfully completed eight individual projects and one group project.
                 Three of my projects are featured below with links to the project repositories and live pages on GitHub:
             </p>
+            <br>
             <div class="card-deck">
-                <div class="card" style="background-color: black;">
+                <div class="card">
                     <img src="Assets/Images/pickyEater.png" class="card-img-top" alt="picky eater app">
                     <div class="card-body">
                         <h5 class="card-title text-center">Picky Eater Recipe App</h5>
@@ -124,25 +121,25 @@
                             project scope sought to provide a resource for people with food allergies and sensitivities
                             to find
                             healthy recipes matching their dietary restrictions. The application was to save the user's
-                            last search in local storage.<br><br>
-                            <a href="https://jkriese12.github.io/picky-eater/" target="_blank"
-                                style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
-                                        style="background-color: white; color: black;"></i> Visit page </span></a>
-                            <a class="pickyLink float-right" href="https://github.com/jkriese12/picky-eater"
-                                target="_blank" style="text-decoration: none; font-size: 1rem;"><span><i
-                                        class="fas fa-laptop-code" style="background-color: white; color: black;"></i>
-                                    Project code</span></a>
+                            last search in local storage.</p>
+                        <a href="https://jkriese12.github.io/picky-eater/" target="_blank"
+                            style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
+                                    style="background-color: white; color: black;"></i> Visit page </span></a>
+                        <a class="pickyLink float-right" href="https://github.com/jkriese12/picky-eater" target="_blank"
+                            style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-laptop-code"
+                                    style="background-color: white; color: black;"></i>
+                                Project code</span></a>
                         </p>
                     </div>
                 </div>
-                <div class="card" style="background-color: black;">
+                <div class="card">
                     <img src="Assets/Images/scheduler.png" class="card-img-top" alt="project planner app">
                     <div class="card-body">
                         <h5 class="card-title text-center">Project Day Scheduler</h5>
-                        <p class="card-text">This was a calendar project for a project manager and her
-                            team. The project scope sought to provide a web app allowing users to
+                        <p class="card-text">This was a planner for a project manager and her
+                            team. The project scope sought to provide an app allowing users to
                             save notes to each hour of the day and effectively manage important project events.
-                            The application was to feature dynamically
+                            The app features dynamically
                             updated HTML and CSS powered by jQuery.</p>
                         <a href="https://onomatopoetica.github.io/work-day-scheduler/" target="_blank"
                             style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
@@ -154,15 +151,14 @@
                         </p>
                     </div>
                 </div>
-                <div class="card" style="background-color: black;">
-                    <img src="Assets/Images/jsCodeQz.png" class="card-img-top" alt="project planner app">
+                <div class="card">
+                    <img src="Assets/Images/jsCodeQz.png" class="card-img-top" alt="quiz app">
                     <div class="card-body">
                         <h5 class="card-title text-center">JavaScript Code Quiz</h5>
                         <p class="card-text">This was a project for web development students to
                             test their knowledge of JavaScript fundamentals. The app was to provide a timed
-                            quiz which stores high scores enabling students to gauge their progress
-                            compared to their peers and was to have a UI rendering
-                            responsively across a variety of devices.</p>
+                            quiz which stores high scores enabling students to gauge their progress with their
+                            peers and render responsively across a variety of devices.</p>
                         <a href="https://onomatopoetica.github.io/code-quiz/" target="_blank"
                             style="text-decoration: none; font-size: 1rem;"><span><i class="fas fa-rocket"
                                     style="background-color: white; color: black;"></i> Visit page </span></a>
@@ -177,15 +173,53 @@
         </div>
     </section>
     <br>
-    <br>
 
     <!-- Creative side accordion -->
 
     <section>
-        <div>
-            <h3 class="freelanceHeader text-center">Test</h3>
+        <div class="container-fluid mb-5 max-width: 100%">
+            <h3 class="freelanceHeader mb-5 text-center">Freelance Passion Project</h3>
+            <div class="freelanceSummary text-justify">
+                <p>As for my creative side, I am an amateur photographer and painter.
+                    A
+                    couple of years ago I started creating
+                    art to memorialize and celebrate pets. It began when a friend on Instagram reached out to me for
+                    ideas
+                    on how she
+                    could memorialize a family friend's pup that had just passed. The photos I was given of the sweet
+                    pup
+                    were low resolution so
+                    I decided to overlay a watercolor of her over a photo background. The family loved the piece so much
+                    they framed it! Click the 'See Pup' button to see the
+                    final art piece.</p>
+
+                <!-- Watercolor pup modal -->
+
+                <div class="w3-container text-center">
+                    <button onclick="document.getElementById('popupPup').style.display='block'" class="btn btn-warning"
+                        style="font-weight: 600;">See
+                        Pup!</button>
+                    <div id="popupPup" class="w3-modal">
+                        <div class="w3-modal-content">
+                            <div class="w3-container">
+                                <span onclick="document.getElementById('popupPup').style.display='none'"
+                                    class="btn btn-warning w3-display-topleft">&times;</span>
+                                <img class="watercolorPup" src="Assets/Images/wWaterColor.png"
+                                    alt="watercolor pup sunflower and butterflies" width="100%" height="100%" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <p>Since this first art project, I've been asked to do more than 50 pieces for everything from pet
+                    memorials, to pet
+                    birthdays, to celebrating achievements in training certifications. Click the 'Freelance Work' panel
+                    below to
+                    see my work. Can you guess which one is my own pup? </p>
+            </div>
+
         </div>
-        <button class="accordion w3-indigo pb-3" style="font-size: 1.25rem;">My Freelance Work</button>
+        <button class="accordion w3-indigo pb-3 pr-1" style="font-size: 1.25rem;"> Freelance Work</button>
         <div class="panel">
             <div class="grid-container" style="max-width: 100%; text-align: center;">
                 <div class="item1">
@@ -205,11 +239,29 @@
     </section>
     <br>
 
+    <!-- Hire Me! Button for downloading résumé -->
+
+    <div class="buttonContainer mt-3">
+        <p class="buttonText">Are you looking for a full stack developer with my experience and verve? Click
+            the button below for my full résumé.</p><br>
+
+        <div class="buttonResume text-center">
+            <a href="Assets/Resume/Jennifer_Bates.pdf" target="_blank" download="resume">
+                <button class="btn btn-warning" style="font-weight: 600;" type="button">Hire Me!</button>
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr class="rule w3-indigo">
+    <br>
+
     <!-- Container for contact form -->
 
     <section id="contact">
         <div class="container-fluid justify-content-center" style="max-width: 100%;">
-            <h3 class="contactHeader text-center mt-5">Contact Me</h3>
+            <h3 class="contactHeader text-center mt-5">Contact Me</h3><br>
+            <p class="contactText text-justify ">Have questions for me or want to collaborate? Let's connect!</p>
             <br>
             <form>
                 <div class="form-group text-left">
@@ -252,7 +304,7 @@
 
     <!-- FOOTER -->
 
-    <footer class="cvFooter" style="text-align: center; font-size: 1rem;">
+    <footer class="portfolioFooter" style="text-align: center; font-size: 1rem;">
         <div class="text-black">
             <div class="madeWithLove" style="font-size: .85rem;">Made with <i class="fa fa-heart pulse"
                     style="color: red;"></i> in AZ by Jennifer Bates in 2021</div>
@@ -271,7 +323,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript & JQuery -->
+    <!-- JavaScript & jQuery -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
