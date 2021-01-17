@@ -30,9 +30,11 @@ GIVEN LOREM IPSUM...
 
 ![See how it works!](placeholder.GIF)  
 
-##### The following is a screenshot of the portfolio and overview of its functionality: <br>
+##### The following are screenshots of the portfolio and overview of its functionality: <br>
 
-<img src="#" alt="portfolio screenshot" width="400" height="auto">
+<img src="Assets/Images/aboutMe.png" alt="portfolio screenshot" width="400" height="auto"> <br>
+<img src="Assets/Images/projectWork.png" alt="portfolio screenshot" width="400" height="auto"> <br>
+<img src="Assets/Images/freelanceWork.png" alt="portfolio screenshot" width="400" height="auto"> <br>
 
 ## Getting Started
 
