@@ -10,20 +10,14 @@
 1. [Project Status](#Project-Status)
 1. [License](#License)
 
-## About The Project
-
-#### This was a refactor of my initial portfolio created at the beginning of my coding journey two months ago! The project scope sought to provide XXXXXX. The portfolio was to have XXXXXX. It was also to have a clean and polished user interface rendering responsively across a variety of devices. 
-
 ## Project Links
 [GitHub Project Link](https://onomatopoetica.github.io/portfolio-refactor/)<br>
 [Repo Link](https://github.com/onomatopoetica/portfolio-refactor)
 
-## Acceptance Criteria
+## About The Project
 
-```
-GIVEN LOREM IPSUM...
+#### This was a refactor of my initial portfolio created at the beginning of my coding journey two months ago! This project required a revised portfolio featuring my first group project and two individual projects (with links to the respective repo and deployed page), a link to a downloadable résumé and links to my GitHub and LinkedIn profiles. It was also to have a clean and polished user interface rendering responsively across a variety of devices. 
 
-```
 ## Demo
 
 ##### This video clip demonstrates the portfolio's rendering and functionality on a mobile device. <br>
@@ -32,9 +26,9 @@ GIVEN LOREM IPSUM...
 
 ##### The following are screenshots of the portfolio and overview of its functionality: <br>
 
-<img src="Assets/Images/aboutMe.png" alt="portfolio screenshot" width="400" height="auto"> <br>
-<img src="Assets/Images/projectWork.png" alt="portfolio screenshot" width="400" height="auto"> <br>
-<img src="Assets/Images/freelanceWork.png" alt="portfolio screenshot" width="400" height="auto"> <br>
+<img src="Assets/Images/aboutMe.png" alt="portfolio screenshot" width="800" height="auto"> <br>
+<img src="Assets/Images/projectWork.png" alt="portfolio screenshot" width="800" height="auto"> <br>
+<img src="Assets/Images/freelanceWork.png" alt="portfolio screenshot" width="800" height="auto"> <br>
 
 ## Getting Started
 
