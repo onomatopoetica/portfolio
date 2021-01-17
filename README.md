@@ -16,7 +16,7 @@
 
 ## About The Project
 
-#### This was a refactor of my initial portfolio created at the beginning of my coding journey two months ago! This project required a revised portfolio featuring my first group project and two individual projects (with links to the respective repo and deployed page), a link to a downloadable résumé and links to my GitHub and LinkedIn profiles. It was also to have a clean and polished user interface rendering responsively across a variety of devices. 
+#### This was a refactor of my initial portfolio created at the beginning of my coding journey two months ago! This project required a revised portfolio featuring my first group project and two individual projects (with links to each respective repo and deployed page). It was also to provide a downloadable résumé and links to my GitHub and LinkedIn profiles. The portfolio was to render responsively across a variety of devices with a clean and polished user interface. 
 
 ## Demo
 
