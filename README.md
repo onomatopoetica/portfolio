@@ -22,7 +22,7 @@
 
 ##### This video clip demonstrates the portfolio's rendering and functionality on a mobile device. <br>
 
-![See how it works!](placeholder.GIF)  
+![See how it works!](Assets/Images/jbportfolio.gif)  
 
 ##### The following are screenshots of the portfolio and overview of its functionality: <br>
 
