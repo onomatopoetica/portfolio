@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/portfolio-refactor)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/portfolio-refactor)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/portfolio-refactor?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/portfolio-refactor)
+![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/portfolio)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/portfolio)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/portfolio?label=Watch&style=social)  ![GitHub top language](https://img.shields.io/github/languages/top/onomatopoetica/portfolio)
 
 # Porfolio Refactor Project <br>
 
@@ -11,8 +11,8 @@
 1. [License](#License)
 
 ## Project Links
-[GitHub Project Link](https://onomatopoetica.github.io/portfolio-refactor/)<br>
-[Repo Link](https://github.com/onomatopoetica/portfolio-refactor)
+[GitHub Project Link](https://onomatopoetica.github.io/portfolio/)<br>
+[Repo Link](https://github.com/onomatopoetica/portfolio)
 
 ## About The Project
 
@@ -40,7 +40,7 @@
 
 #### Installation - Clone the repo: <br>
    ``` 
-   git clone https://github.com/onomatopoetica/portfolio-refactor.git
+   git clone https://github.com/onomatopoetica/portfolio.git
    ```
 
 ## Project Status
