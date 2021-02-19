@@ -26,9 +26,8 @@
 
 ##### The following are screenshots of the portfolio and overview of its functionality: <br>
 
-<img src="Assets/Images/aboutMe.png" alt="portfolio screenshot" width="800" height="auto"> <br>
-<img src="Assets/Images/projectWork.png" alt="portfolio screenshot" width="800" height="auto"> <br>
-<img src="Assets/Images/freelanceWork.png" alt="portfolio screenshot" width="800" height="auto"> <br>
+<img src="Assets/Images/aboutMe.png" alt="portfolio screenshot" width="900" height="auto"> <br>
+<img src="Assets/Images/freelanceWork.png" alt="portfolio screenshot" width="900" height="auto"> <br>
 
 ## Getting Started
 
